@@ -1,8 +1,9 @@
-Triangle Backgroudn View
+Triangle Background View
 -------------
 
 
 Custom view with **triangle** background. 
+Android **API 7+**
 
 ----------
 
