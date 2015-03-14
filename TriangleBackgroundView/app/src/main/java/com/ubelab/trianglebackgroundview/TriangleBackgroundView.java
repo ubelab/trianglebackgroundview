@@ -39,11 +39,11 @@ public class TriangleBackgroundView extends View {
         paint.setAntiAlias(true);
         paint.setStrokeCap(Paint.Cap.SQUARE);
         paint.setStyle(Paint.Style.FILL);
-        paint.setColor(Color.GRAY);
+        paint.setColor(getResources().getColor(R.color.primaryColor));
 
         bgPaint= new Paint();
         bgPaint.setStyle(Paint.Style.FILL);
-        bgPaint.setColor(Color.WHITE);
+        bgPaint.setColor(getResources().getColor(R.color.primaryColorDark));
     }
 
     @Override
